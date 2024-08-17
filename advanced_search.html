@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Advanced Search</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <table id="top-table">
+        <tr>
+            <td class="cell-align-vertical-top"> 
+                <div>
+                    <img src="google_logo.png" alt="Google Logo" class="as-img">
+                </div>    
+            </td>
+
+            <td class="cell-align cell-align-vertical-top"> 
+                <div class="links">
+                    <a href="index.html">Search</a>
+                </div>   
+            </td>
+        </tr>
+    </table>
+
+ 
+
+
+    <div id="as">
+        Advanced Search
+    </div>
+
+    <div class="horizontal-line"></div>
+
+    <tr>
+    <div class="as-input-start">Find pages with…</div>
+    </tr>
+
+    <form action="https://www.google.com/search">
+        <input type="hidden" name="hl" value="en">
+        <table id="bottom-table">
+            <tr>
+                <td class="as-input-text">all these words:</td>
+                <td><input type="text" class="as-input" name="as_q"></td>
+            </tr>
+            <tr>
+                <td class="as-input-text">this exact word or phrase:</td>
+                <td><input type="text" class="as-input"  name="as_epq">
+                
+            </tr>
+            <tr>
+                <td class="as-input-text">any of these words:</td>
+                <td><input type="text" class="as-input"  name="as_oq">
+                
+            </tr>
+            <tr>
+                <td class="as-input-text">none of these words:</td>
+                <td> <input type="text" class="as-input"  name="as_eq">
+            </tr>
+            <tr>
+                <td colspan="2" class="cell-align"> <input type="submit" id="as-button" value="Advanced Search"></td>
+            </tr>
+
+        <input type="hidden" name="as_nlo" value="">
+        <input type="hidden" name="as_nhi" value="">
+        <input type="hidden" name="lr" value="">
+        <input type="hidden" name="cr" value="i">
+        <input type="hidden" name="as_qdr" value="all">
+        <input type="hidden" name="as_sitesearch" value="">
+        <input type="hidden" name="as_occt" value="any">
+        <input type="hidden" name="as_filetype" value="">
+        <input type="hidden" name="tbs" value="">
+        
+        
+    </table>
+    </form>
+</body>
+
+</html>
+
+<!-- 
+
+
+I’m Feeling Lucky
+Find pages with… “all these words:”
+Find pages with… “this exact word or phrase:”
+Find pages with… “any of these words:”
+Find pages with… “none of these words:”
+
+
+
+https://www.google.com/search?
+as_q=First
+as_epq=Second
+as_oq=Third
+as_eq=Fourth
+as_nlo=
+as_nhi=
+lr=
+cr=
+as_qdr=all
+as_sitesearch=
+as_occt=any
+as_filetype=
+tbs=
+-->
