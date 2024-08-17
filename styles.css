@@ -1,0 +1,188 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #202124;
+    margin: 0;
+    padding: 20px;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top-container {
+    width: 100%;
+    text-align: center;
+}
+
+.middle-container {
+    width: 100%;
+    text-align: center;
+    align-self: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.s-input {
+    width: 500px;
+    padding: 10px;
+    font-size: 22px;
+    border: 1px solid #dfe1e5;
+    border-radius: 25px;
+    box-shadow: none;
+    outline: none;
+}
+
+.as-input {
+    width: 350px;
+    font-size: 13px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    outline: none;
+    margin: 5px;
+    padding: 6px;
+}
+
+.as-input-text {
+    font-size: 13px;
+}
+
+.as-input-start {
+    margin-top: 60px;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #414548;
+    background-color: #f8f9fa;
+    border: none;
+    cursor: pointer;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+#as-button {
+    padding: 9px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    background-color: #4b8ef9;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    text-align: centre;
+}
+
+button:hover {
+    border: 1px solid #659af6
+}
+
+.links {
+    font-size: 12px;
+    color: #414548;
+    text-align: right;
+}
+
+div>a {
+    margin: 5px;
+}
+
+.as-img {
+    margin: 5px;
+    height: 25px;
+    margin: 15px;
+}
+
+#as {
+    margin-left: 20px;
+    color: #d93025;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.horizontal-line {
+    width: 100%;
+    /* Full width of the container */
+    height: 1px;
+    /* Line thickness */
+    background-color: #ededed;
+    margin: 20px 0;
+    /* Optional: space around the line */
+}
+
+.cell-align {
+    text-align: right;
+}
+
+.cell-align-vertical-top {
+    vertical-align: top;
+}
+
+
+#top-table {
+    width: 100%;
+    /* Full width of the viewport */
+    border-collapse: collapse;
+    /* Ensure borders are not doubled */
+}
+
+#bottom-table {
+ margin-left: 20px;
+}
+
+.image-container {
+    width: 100%;
+    text-align: center;
+}
+
+.image-container2 {
+    position: relative;
+    width: 100%;
+    max-width: 600px; /* Optional: control the maximum width of the image */
+    margin: 0 auto;
+}
+
+.image-container img {
+    height: 90px;
+    display: block;
+    width: auto;
+    text-align: center;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 40%; /* Adjust position from the top of the image */
+    left: 50%; /* Adjust position from the left of the image */
+    transform: translate(+85%, 95%); /* Center the text */
+    color: #4284f3;
+    font-size:18px;
+    text-align: right;
+    padding: 10px;
+}
+
+.s-img {
+    height: 90px;
+    margin-bottom: 2%;
+}
+
+input[type="text"] {
+    flex: 1; /* Takes up available space */
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
